@@ -1,17 +1,20 @@
 {
-  "name": "adapt-sliderItems",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nachocinalli/adapt-sliderItems.git"
-  },
-  "framework": ">=5.14.0",
-  "version": "1.0.0",
-  "homepage": "https://github.com/nachocinalli/adapt-sliderItems",
-  "issues": "https://github.com/nachocinalli/adapt-sliderItems/issues",
-  "component": "sliderItems",
-  "description": "A slider items component",
-  "main": "/js/adapt-sliderItems.js",
-  "displayName": "Slider Items",
-  "keywords": ["adapt-plugin", "adapt-component"],
-  "license": "GPLv3"
+    "name": "adapt-sliderItems",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nachocinalli/adapt-sliderItems.git"
+    },
+    "framework": ">=5.14.0",
+    "version": "1.0.0",
+    "homepage": "https://github.com/nachocinalli/adapt-sliderItems",
+    "issues": "https://github.com/nachocinalli/adapt-sliderItems/issues",
+    "component": "sliderItems",
+    "description": "A slider items component",
+    "main": "/js/adapt-sliderItems.js",
+    "displayName": "Slider Items",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3"
 }
