@@ -1,0 +1,14 @@
+.slideritems {
+  &__container-items{
+    display: inline-flex;
+  }
+  &__item {
+    &:not(.is-active) {
+      visibility: hidden;
+    }
+  }
+  &__slider,
+  &__slider-input {
+    width: 100%;
+  }
+}

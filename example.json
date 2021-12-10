@@ -1,0 +1,46 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "sliderItems",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Slider Items",
+  "displayTitle": "Slider Items",
+  "body": "This is optional body text.",
+  "instruction": "This is the instruction text.",
+  "_setCompletionOn": "allItems",
+  "_startValue": 0,
+  "_items": [
+    {
+      "title": "Item 1",
+      "body": "This is display text",
+      "_graphic": {
+        "large": "",
+        "small": "",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "title": "Item 2",
+      "body": "This is display text",
+      "_graphic": {
+        "large": "",
+        "small": "",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "title": "Item 3",
+      "body": "This is display text",
+      "_graphic": {
+        "large": "",
+        "small": "",
+        "alt": ""
+      },
+      "_classes": ""
+    }
+  ]
+}
