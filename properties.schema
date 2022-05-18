@@ -30,7 +30,6 @@
 			"help": "This is the instruction text",
 			"translatable": true
 		},
-		
 		"_setCompletionOn": {
 			"type": "string",
 			"required": true,
@@ -56,6 +55,15 @@
 			],
 			"help": "Set initial value"
 		},
+		"_label": {
+			"type": "string",
+			"required": false,
+			"default": "",
+			"inputType": "Text",
+			"validators": [],
+			"help": "This is the label for the input slider",
+			"translatable": true
+		},
 		"_items": {
 			"type": "array",
 			"required": true,
@@ -64,7 +72,7 @@
 				"type": "object",
 				"required": true,
 				"properties": {
-					
+
 					"title": {
 						"type": "string",
 						"required": false,

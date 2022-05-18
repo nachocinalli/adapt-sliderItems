@@ -3,7 +3,9 @@ import { templates, classes, html, compile } from 'core/js/reactHelpers';
 
 export default function slideritems({
   onSliderChange,
+  _id,
   _items,
+  _label,
   ...props
 }) {
   let _activeIndex = 0;
@@ -18,23 +20,23 @@ export default function slideritems({
       <templates.header {...props} />
       <div className='component__widget slideritems__widget'>
         <div className='slideritems__slider'>
+          <label htmlFor={`slider-input-${_id}`} className='slideritems__label'>{_label}</label>
           <input
+            id={`slider-input-${_id}`}
             className='slideritems__slider-input'
             type='range'
             step='1'
             min='0'
             max={_max}
             value={_activeIndex}
-            aria-valuemin='1'
-            aria-valuemax={_max}
             aria-valuenow={_activeIndex}
             aria-valuetext={itemActive ? itemActive.get('title') : ''}
             onChange={onSliderChange}
-            list='inputData'>
+            list={`slider-input-data-${_id}`}>
           </input>
-          <datalist id='inputData'>
+          <datalist id={`slider-input-data-${_id}`}>
             {_items.map(({ _index, title }, index) => (
-              <option onClick={onSliderChange} className={_activeIndex === _index ? 'is-active' : ''} key={index} value={_index}> {title}</option>
+              <option className={_activeIndex === _index ? 'is-active' : ''} key={index} value={_index}> {title}</option>
 
             ))}
           </datalist>

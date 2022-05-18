@@ -11,6 +11,7 @@
   "instruction": "This is the instruction text.",
   "_setCompletionOn": "allItems",
   "_startValue": 0,
+  "_label": "Slider Items",
   "_items": [
     {
       "title": "Item 1",

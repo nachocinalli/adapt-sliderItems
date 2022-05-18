@@ -39,6 +39,15 @@
           "description": "Set initial value",
           "default": 0
         },
+        "_label": {
+          "type": "string",
+          "title": "Label",
+          "description": "The label for the input slider",
+          "default": "",
+          "_adapt": {
+            "translatable": true
+          }
+        },
         "_items": {
           "type": "array",
           "title": "Items",
