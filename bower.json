@@ -5,7 +5,7 @@
     "url": "git://github.com/nachocinalli/adapt-sliderItems.git"
   },
   "framework": ">=5.14.0",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "homepage": "https://github.com/nachocinalli/adapt-sliderItems",
   "issues": "https://github.com/nachocinalli/adapt-sliderItems/issues",
   "component": "sliderItems",
